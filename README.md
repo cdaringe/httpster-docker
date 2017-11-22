@@ -1,5 +1,7 @@
 # httpster-docker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cdaringe/httpster-docker.svg)](https://greenkeeper.io/)
+
 the best, easy, static file server around. puts [httpster](https://github.com/SimbCo/httpster) into docker.
 
 ## usage
