@@ -1,4 +1,6 @@
 FROM node:alpine
 RUN npm install -g httpster
 EXPOSE 3333
-CMD ["httpster", "-d", "/public"]
+RUN mkdir /httpster
+COPY bin.sh /httpster/bin.sh
+CMD ["/httpster/bin.sh"]
